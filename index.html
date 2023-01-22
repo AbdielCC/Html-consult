@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="aprendiendo html"/>
+    <title>Html</title>
+    <style>
+        h2{
+            color: orangered;
+        }
+    </style>
+    <link rel="canonical" href="http://tudominio.com/la-url-canonica">
+    <link rel="stylesheet" href="assets/estilos.css">
+    <link rel="icon" href="img/html5_logo.png">
+    <link rel="apple-touch-icon" href="img/html5_logo.png">
+    <meta name="theme-color" content="#FF6600">
+    <meta property="og:title" content="aprendiendo html">
+    <meta property="og:description" content="En esta pagina estamos aprendiendo los fundamentos de Html">
+    <meta property="og:image" content="https://tudominio.com/img/html5_logo.png">
+    <meta name="twitter:card" content="summary">
+
+</head>
+<body>
+    <!--esto es un comentario -->
+    <header><h1>Esto es un encabezado</h1></header>
+    <h2 id="inicio">Aprendiendo Html</h2>
+    <h3>Temario del curso</h3>
+    <!-- ul>li*18>a -->
+    <ul>
+        <li><a href="index.html#inicio">inicio</a></li>
+        <li><a href="index.html#etiquetas-basicas">etiquetas-basicas</a></li>
+        <li><a href="index.html#etiquetas-semanticas">etiquetas-semanticas</a></li>
+        <li><a href="index.html#etiquetas-de-saltos">etiquetas-de-saltos</a></li>
+        <li><a href="index.html#formateos">formateos</a></li>
+        <li><a href="index.html#etiquetas-estructurales">etiquetas-estructurales</a></li>
+        <li><a href="index.html#etiquetas-de-bloques-y-linea">etiquetas-de-bloques-y-linea</a></li>
+        <li><a href="index.html#imagenes">imagenes</a></li>
+        <li><a href="index.html#SVG">SVG</a></li>
+        <li><a href="index.html#figuras">figuras</a></li>
+        <li><a href="index.html#listas">listas</a></li>
+        <li><a href="index.html#listas-desordenadas">listas-desordenadas</a></li>
+        <li><a href="index.html#listas-de-definicnion">listas-de-definicnion</a></li>
+        <li><a href="index.html#tablas">tablas</a></li>
+        <li><a href="index.html#enlaces">enlaces</a></li>
+        <li><a href="index.html#imagenes enlaces">imagenes enlaces</a></li>
+        <li><a href="index.html#enlaces-internos">enlaces-internos</a></li>
+        <li><a href="index.html#enlaces-correos">enlaces-correos</a></li>
+        <li><a href="index.html#botones">botones</a></li>
+        <li><a href="index.html#audio-video">audio-video</a></li>
+        <li><a href="index.html#carga-archivo">carga-archivo</a></li>
+        <li><a href="index.html#formularios">formularios</a></li>
+        <li><a href="index.html#atributos">atributos</a></li>
+        <li><a href="index.html#accesibilidad">accesibilidad</a></li>
+        <li><a href="index.html#Scrip">Scripts en html</a></li>
+    </ul>
+    <p>hola este es un documento html</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure commodi consectetur iste velit cum reprehenderit quae hic, illum assumenda fugit quam aliquam quidem odit, quasi earum, tempora quis blanditiis ea?</p>
+    <hr>
+    <h2 id="etiquetas-basicas">Etiquetas de texto basicas</h2>
+    <p>palabras en <b>negrita</b></p>
+    <p>palabras en <i>italica</i></p>
+    <p>palabras <u>subrrallado</u></p>
+    <p>e=mc <sup>2</sup></p>
+    <p>H <sub>2</sub>O</p>
+    <p>para <mark>marcatexto</mark></p>
+    <p>para letras <small>peques</small></p>
+    <hr>
+    <h2 id="etiquetas-semanticas">Etiquetas de texto semanticas</h2>
+    <p><strong>Este texto es importante los genera un texto semantico</strong></p>
+    <p><em>Este texto hace enfasis</em></p>
+    <blockquote>Esto hace una cita o referencia que algien mas escribio</blockquote>
+    <blockquote>yo solo se que no se nada</blockquote>
+    <cite>Socrates</cite>
+    <hr>
+    <h2 id="etiquetas-de-saltos">Etiquetas de saltos</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing . <br> Expedita sint quis doloremque quae repellendus aliquam ducimus! Atque nesciunt itaque illo nam, error expedita id adipisci officiis! Odio cupiditate expedita officiis.</p>
+    <hr>
+    <h2 id="formateos">Formateos o preformateos</h2>
+    <p>
+        <pre>
+            Esto es una lista de cosas por hacer
+                Aprender html
+                Aprender css
+                Aprender javascript
+        </pre>
+        <p><pre>
+            <code>Esta es una linea de codigo</code>
+        </pre></p>
+    </p>
+    <hr>
+    <h2 id="etiquetas-estructurales">Etiquetas semanticas estructurales</h2>
+    <div>Es una etiqueta contenedora que no tiene semantica</div>
+    <header>Cabecera de un sitio o una seccion </header>
+    <main>Define la seccion principal del documento</main>
+    <footer>Indica la seccion de un sitio web</footer>
+    <nav>Representa una barra de navegacion</nav>
+    <article>Representa una seccion de autocontenido</article>
+    <aside>Representa un contenido complementario o secundario</aside>
+    <section>Representa una seccion </section>
+    <address>adress Representa una direccion o informacion de contacto</address>
+    <hr>
+    <h2 id="etiquetas-de-bloques-y-linea">Etiquetas de bloque vs etiquetas de linea</h2>
+    <div style="background-color: yellow;">La etiqueta de bloque por excelencia es div una etiqueta de bloque es aquella que genera saltos de linea con sus etiquetas hermanas</div>
+    <span style="background-color: greenyellow;">La etiqueta de lina por excelencia es span, una etiqueta de linea solo ocupa el espacio nesecario que tiene su contenido</span>
+    <span>Hola soy otra span</span>
+    <hr>
+    <h2>Estilos css en html</h2>
+    <hr>
+    <h2 id="imagenes">Imagenes en html</h2>
+    <img src="img/Kifh.gif" alt="Imagen anime">
+    <hr>
+    <h2 id="SVG">SVG</h2>
+    <hr>
+    <p>Se puede agregar imagenes vectoriales svg ya que es codigo html</p>
+    <hr>
+    <h2 id="figuras">Figuras</h2>
+    <figure>
+        <img src="img/Kifh.gif" alt="Imagen de anime">
+        <figcaption>Imagen de anime</figcaption>
+    </figure>
+    <hr>
+    <h2 id="listas">listas</h2>
+    <h3>Estaciones del year</h3>
+    <p>Listas ordenadas</p>
+    <ol start="3">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otono</li>
+        <li>Invierno</li>
+    </ol>
+    <ol reversed>
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otono</li>
+        <li>Invierno</li>
+    </ol>
+    <ol type="I">
+        <li>Primavera</li>
+        <li>Verano</li>
+        <li>Otono</li>
+        <li>Invierno</li>
+    </ol>
+    <hr>
+    <h2 id="listas-desordenadas">Listas desordenadas</h2>
+    <h3>Listas por hacer</h3>
+    <ul type="square">
+        <li>Terminar videos de curso</li>
+        <li>Empezar curso de css</li>
+        <li>Empezar curso de javascript</li>
+    </ul>
+    <ul type="circle">
+        <li>Terminar videos de curso</li>
+        <li>Empezar curso de css</li>
+        <li>Empezar curso de javascript</li>
+    </ul>
+    <hr>
+    <h2 id="listas-de-definicnion">Listas de definicion</h2>
+    <dl>
+        <dt>Html</dt>
+        <dd>Es un lenguaje demarcado que define el contenido de la web</dd>
+        <dt>Css</dt>
+        <dd>Es un lenguaje de definicion que da estilos al contenido de la web</dd>
+        <dt>Javascript</dt>
+        <dd>Es el lenguaje de la web</dd>
+    </dl>
+    <hr>
+    <h2 id="tablas">Tablas</h2>
+    <table>
+        <tr>
+            <td>Nombre</td>
+            <td>Constelacion</td>
+            <td>Tipo</td>
+        </tr>
+        <tr>
+            <td>ikki</td>
+            <td>Fenix</td>
+            <td>Bronce</td>
+        </tr>
+        <tr>
+            <td>Shaina</td>
+            <td>Ofiuco</td>
+            <td>Plata</td>
+        </tr>
+    </table>
+    <h3>Table head, table body, table foot</h3>
+    <table>
+        <thead>
+            <tr colspan="3">Tabla de los santos de atena</tr>
+            <tr>
+                <th>Nombre</th>
+                <th>Constelacion</th>
+                <th>Tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">ikki</td>
+                <td>Fenix</td>
+                <td>Bronce</td>
+            </tr>
+            <tr>
+                <td>Shaina</td>
+                <td>Ofiuco</td>
+                <td>Plata</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3">Seint seya fue creado por masami curumada</th>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h2 id="enlaces">Enlaces</h2>
+    <a href="hola.html">Hacia la pagina hola</a>
+    <br>
+    <a href="https://www.youtube.com/watch?v=-oK6zL01fNM&list=PLvq-jIkSeTUZYcX9SYwVe7f66afwd9qk_&index=1" target="_blank" rel="nonfollow">Visita el sitio web del curso de html</a>
+    <h2 id="imagenes enlaces">Imagenes como enlaces</h2>
+    <a href="https://www.youtube.com/watch?v=-oK6zL01fNM&list=PLvq-jIkSeTUZYcX9SYwVe7f66afwd9qk_&index=1" target="_blank">
+        <img src="img/Kifh.gif" alt="ir hacia cursos">
+    </a>
+    <h2 id="enlaces-internos">Enlaces internos</h2>
+    <hr>
+    <h2 id="enlaces-correos">Enlaces a correos electronicos</h2>
+    <br>
+    <a href="mailto:ruligamarons@gmail.com">correo</a>
+    <a href="tel:5531409148">telefono</a>
+    <br>
+    <a href="https://api.whatsappp.com/send?phone=5531409148&text=Hola">whatsappp</a>
+    <br>
+    <hr>
+    <h2 id="botones">Botones</h2>
+    <button onclick="alert('Hola as dado click en el boton')">Este es un boton</button>
+    <details open>
+        <summary>Titulo del acordeon</summary>
+        <h3>Contenido del acordeon</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos beatae fuga autem optio, itaque non quidem, laborum perspiciatis omnis ab, ipsam possimus exercitationem reiciendis pariatur. Ex laborum doloribus quia nemo?q</p>
+        <img src="img/Kifh.gif" alt="anime">
+    </details>
+    <dialog open>
+        Esto es una ventana modal
+    </dialog>
+    <hr>
+    <h2 id="audio-video">audio y video</h2>
+    <audio src="media/y2mate.com - Kygo Imagine Dragons  Born To Be Yours Official Video.mp3" controls preload></audio>
+    <!-- autoplay, loop para reproducir muchas veces, muted va a empezar muteado ,preload precarga el cahe de audio-->
+    <video src="media/y2mate.com - Kygo Imagine Dragons  Born To Be Yours Official Video_1080p.mp4" controls preload poster="img/Kifh.gif"></video>
+    <hr>
+    <h2 id="carga-archivo">Iframes</h2>
+    <iframe src="hola.html" frameborder="0"></iframe>
+    <br>
+    <iframe src="https://htmlreference.io" frameborder="0"></iframe>
+    <br>
+    <iframe src="media/keyboard-shortcuts-windows.pdf" frameborder="0"></iframe>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1881.3308153498472!2d-99.16869637429183!3d19.42702059670581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd1563%3A0x6c366f0e2de02ff7!2sEl%20%C3%81ngel%20de%20la%20Independencia!5e0!3m2!1ses-419!2smx!4v1674363634322!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-oK6zL01fNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <h2 id="formularios">Formularios</h2>
+    <h3>Elementos de formularios</h3>
+    <input type="text">
+    <br>
+    <input type="checkbox">
+    <br>
+    <input type="radio">
+    <br>
+    <input type="date">
+    <br>
+    <input type="color">
+    <br>
+    <input type="button" value="Boton">
+    <br>
+    <input type="submit">
+    <br>
+    <input type="reset">
+    <br>
+    <input type="file">
+    <br>
+    <input type="file" multiple>
+    <br>
+    <input type="hidden" name="idioma" value="es">
+    <br>
+    <input type="email">
+    <br>
+    <input type="number">
+    <br>
+    <input type="tel">
+    <br>
+    <input type="password">
+    <br>
+    <input type="search">
+    <br>
+    <textarea cols="30" rows="20"></textarea>
+    <br>
+    <select name="" id="">
+        <option value="">html</option>
+        <option value="">Css</option>
+        <option value="">Javascript</option>
+        <option value="">php</option>
+        <option value="">python</option>
+    </select>
+    <br>
+    <select name="" id="" multiple>
+        <option value="">html</option>
+        <option value="">Css</option>
+        <option value="">Javascript</option>
+        <option value="">php</option>
+        <option value="">python</option>
+    </select>
+    <br>
+    <input type="text"value="Programacion" readonly disabled>
+    <br>
+    <input type="text" placeholder="Escribe tu nombre">
+    <br>
+    <h3>Ejemplo de formularios</h3>
+    <h4>Formulario de login</h4>
+    <form action="https://jonmircha.com" method="get">
+        <input type="text" name="usuario">
+        <br>
+        <input type="password" name="password">
+        <br>
+        <input type="submit">
+        <br>
+        <input type="reset">
+    </form>
+    <p>Para que no se vea en la url</p>
+    <form action="https://jonmircha.com" method="post" autocomplete="off">
+        <p>Solo letras expreciones regulares</p>
+        <label for="usuario">Usuario:</label>
+        <input type="text" name="usuario" id="usuario" placeholder="Escribe tu usuario" pattern="^[A-Za-z]+$" title="Solo se admiten letras" required>
+        <br>
+        <label for="password">Pasword:</label>
+        <input type="password" name="password" id="pasword" placeholder="Escribe tu pasword" required>
+        <br>
+        <input type="submit">
+        <br>
+        <input type="reset">
+    </form>
+
+    <h4>Selects, Radios y checkbox</h4>
+    <form>
+        <p>Elige tu idioma</p>
+        <select name="idioma" required>
+            <option value="">Elige una opcion</option>
+            <option value="es" selected>Espanol</option>
+            <option value="en">Ingles</option>
+            <option value="fr">Frances</option>
+            <option value="it">Italiano</option>
+            <option value="pt">Portugues</option>
+        </select>
+        <input type="submit">
+        <input type="reset">
+        <p>Elige tu lenguaje de programacion favorito</p>
+        <p>Solo se puede una opcion</p>
+        <input type="radio" name="lenguaje" id="js" required>
+        <label for="js">Javascript</label>
+        <input type="radio" name="lenguaje" id="py">
+        <label for="py">python</label>
+        <p>Elige tus intereses</p>
+        <label>
+            <input type="checkbox" name="intereses" value="Deportes">
+            Deportes
+        </label>
+        <label>
+            <input type="checkbox" name="intereses" value="Finanzas">
+            Finanzas
+        </label>
+        <label>
+            <input type="checkbox" name="intereses" value="Salud">
+            Salud
+        </label>
+        <label>
+            <input type="checkbox" name="intereses" value="Ecologia">
+            Ecologia
+        </label>
+    </form>
+
+    <p>
+        <label>
+            <input type="checkbox" name="terminos" required>
+            Aceptas terminos y consiciones?
+        </label>
+    </p>
+
+    <p>Formulario de contacto</p>
+    <form action="https://formsubmit.co/ruligamarons@gmail.com">
+        <input type="text" name="nombre" placeholder="Escribe tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Nombre solo acepta letras y epacios en blanco" required>
+        <br>
+        <input type="email" name="corre" placeholder="Escribe tu correo" pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Formato de correo invalido">
+        <br>
+        <textarea name="comentaarios"cols="30" rows="10" required></textarea>
+        <input type="submit">
+    </form>
+    <hr>
+    <h2 id="atributos">Data atributes</h2>
+    <ul>
+        <li data-id="1" data-name="spring">Primavera</li>
+        <li data-id="2" data-name="summer">Verano</li>
+        <li data-id="3" data-name="autumn">otono</li>
+        <li data-id="4" data-name="winter">invierno</li>
+    </ul>
+    <hr>
+    <h2 id="accesibilidad">Acessibilidad Web</h2>
+    <ul role="list">
+        <li tabindex="1" role="listitem">Primavera</li>
+        <li tabindex="2" role="listitem">Verano</li>
+        <li tabindex="3" role="listitem">Otono</li>
+        <li tabindex="4" role="listitem">invierno</li>
+    </ul>
+    <p>Favicon para buscar las pestnas peques</p>
+
+    <h2 id="Scrip">Scripts en html</h2>
+    <script>
+        console.log("Hola estamos aprendiendo html");
+    </script>
+    <script src="assets/codigos.js"></script>
+    <a href="index.html#inicio">🔥</a>
+</body>
+</html>
