@@ -1,0 +1,17 @@
+h1{
+    color: maroon;
+}
+body{
+    font-family: sans-serif;
+}
+img,video{
+    max-width: 100%;
+    height: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+iframe{
+    width: 50%;
+    height: auto;
+}
